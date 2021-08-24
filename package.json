@@ -1,0 +1,31 @@
+{
+    "name": "food-festival",
+    "version": "1.0.0",
+    "description": "A full-stack application intended to demonstrate the principles and technologies of progressive web apps, webpacks, and overall app performance.",
+    "main": "index.js",
+    "scripts": {
+        "webpack": "webpack --watch",
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jvesterfelt/food-festival.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jvesterfelt/food-festival/issues"
+    },
+    "homepage": "https://github.com/jvesterfelt/food-festival#readme",
+    "devDependencies": {
+        "webpack": "^5.51.1",
+        "webpack-cli": "^4.8.0"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.9.3",
+        "bootstrap": "^5.1.0",
+        "jquery": "^3.6.0",
+        "popper.js": "^1.16.1"
+    }
+}
